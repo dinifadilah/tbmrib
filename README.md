@@ -1,3 +1,25 @@
+## Cara Running
+
+Jalankan command berikut di terminal
+
+1. Update project
+
+```
+composer update
+```
+
+2. Migrasi database
+
+```
+php artisan migrate:fresh
+```
+
+3. Run
+
+```
+php artisan serve
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
